@@ -42,7 +42,7 @@ export default function FormularioCadastroColaborador({token}: Props) {
             <TextField fullWidth onChange={evento => setColaborador({...colaborador, cpf: evento.target.value})} required variant="outlined" id="cpf" label="CPF" value={colaborador.cpf}></TextField>
           </Grid>
           <Grid item xs={6}>
-            <TextField fullWidth onChange={evento => setColaborador({...colaborador, data_de_nascimento: evento.target.value})} required variant="outlined" id="data_de_nascimento" label="Data de Nascimento" type="date" value={colaborador.data_de_nascimento}></TextField>
+            <TextField fullWidth onChange={evento => setColaborador({...colaborador, data_de_nascimento: evento.target.value})} required variant="outlined" id="data_de_nascimento"  type="date" value={colaborador.data_de_nascimento}></TextField>
           </Grid>
           <Grid item xs={6}>
             <TextField fullWidth onChange={evento => setColaborador({...colaborador, usuario_id_do_chat: evento.target.value})} required variant="outlined" id="usuario_id_do_chat" label="ID do chat" value={colaborador.usuario_id_do_chat}></TextField>
