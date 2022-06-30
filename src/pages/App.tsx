@@ -6,7 +6,7 @@ import Router from '../routes';
 export default function App() {
 
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="lg">
       <Router />
     </Container>
 
